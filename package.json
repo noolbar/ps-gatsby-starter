@@ -1,0 +1,15 @@
+{
+  "name": "ps-gatsby-stater",
+  "version": "1.0.0",
+  "description": "An example purescript gatsby project",
+  "repository": "lumihq/react-basic-starter",
+  "scripts": {
+    "gatsby:build": "spago build --purs-args \"-o gatsby/src/output/~\"",
+    "clean": "rm -rf gatsby/src/output build",
+    "clean:everything": "npm run clean && rm -rf node_modules .spago"
+  },
+  "dependencies": {
+    "react": "16.12.0",
+    "react-dom": "16.12.0"
+  }
+}
